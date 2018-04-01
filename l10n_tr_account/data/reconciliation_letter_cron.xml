@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo noupdate="1">    
+	<record id="reconciliation_letter_cron" model="ir.cron">
+		<field name="name">Send monthly reconciliation letter</field>
+		<field name="interval_number">1</field>
+		<field name="interval_type">months</field>
+		<field name="numbercall">-1</field>
+		<field name="function">cron_reconciliation_letter_create</field>
+		<field name="model">res.partner</field>
+		<field name="args" eval="()"/>
+		<field name="active" eval="False"/>
+	</record>       
+    
+</odoo>
