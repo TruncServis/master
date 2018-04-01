@@ -1,0 +1,48 @@
+id,name,phone,fax,website,teleks,eft_code,bic,country:id
+res_bank_tr_1 ,Adabank A.Ş. ,212-272 64 20 ,212-272 64 46 ,http://www.adabank.com.tr ,27282 adb TR ,100,ADABTRIS  ,base.tr
+res_bank_tr_2,Akbank T.A.Ş. ,212-385 55 55 ,212- 269 73 83 ,http://www.akbank.com ,26449 aktc TR ,46,AKBKTRIS  ,base.tr
+res_bank_tr_3,Aktif Yatırım Bankası A.Ş. ,212-340 80 00 ,212-340 89 87 ,http://www.aktifbank.com.tr ,,143,CAYTTRIS  ,base.tr
+res_bank_tr_4,Alternatifbank A.Ş. ,212-315 65 00 ,212-233 15 00 ,http://www.abank.com.tr ,26191 ALFBTRIS ,124,ALFBTRIS  ,base.tr
+res_bank_tr_5 ,Anadolubank A.Ş. ,212-368 70 00 ,212-296 57 15 ,http://www.anadolubank.com.tr ,,135,ANDLTRIS  ,base.tr
+res_bank_tr_6 ,Arap Türk Bankası A.Ş. ,212-225 05 00,212-225 05 26,http://www.atbank.com.tr ,26830 atbk TR ,91,ATUBTRIS  ,base.tr
+res_bank_tr_7 ,Bank Mellat ,212-279 80 15 ,212-284 62 14,http://www.mellatbank.com ,26502 melt TR ,94,BKMTTRIS  ,base.tr
+res_bank_tr_8,Bank of Tokyo-Mitsubishi UFJ Turkey A.Ş. ,216-600 30 00 ,216-290 64 73  ,http://www.tu.bk.mufg.jp ,,147,BOTKTRIS  ,base.tr
+res_bank_tr_9 ,BankPozitif Kredi ve Kalkınma Bankası A.Ş. ,216-538 25 25 ,216-538 42 58 ,http://www.bankpozitif.com.tr ,,142,BPTRTRIS  ,base.tr
+res_bank_tr_10,Birleşik Fon Bankası A.Ş. ,212-340 10 00 ,212-347 32 17 ,http://www.fonbank.com.tr ,27920 dev TR ,29,BAYDTRIS  ,base.tr
+res_bank_tr_11 ,Burgan Bank A.Ş. ,212-371 37 37  ,212-371 42 42 ,http://www.burgan.com.tr ,,125,TEKFTRIS  ,base.tr
+res_bank_tr_12,Citibank A.Ş. ,216- 524 50 00 ,216- 524 50 50 ,http://www.citibank.com.tr ,26277 citi TR ,92,CITITRIX  ,base.tr
+res_bank_tr_13,Denizbank A.Ş. ,212-348 20 00 ,212-336 30 30 ,http://www.denizbank.com ,,134,DENITRIS  ,base.tr
+res_bank_tr_14,Deutsche Bank A.Ş. ,212-317 01 00 ,212-317 01 05 ,http://www.db.com.tr ,39343 tmch tr. ,115,BKTRTRIS  ,base.tr
+res_bank_tr_15,Diler Yatırım Bankası A.Ş. ,212-253 66 30 ,212-253 94 54 ,http://www.dilerbank.com.tr ,,138,DYAKTRIS  ,base.tr
+res_bank_tr_16,Fibabanka A.Ş. ,212-381 82 00 ,212-258 37 78 ,http://www.fibabanka.com.tr ,,103,FBHLTRIS  ,base.tr
+res_bank_tr_17,Finans Bank A.Ş. ,212-318 50 00 ,212-318 58 50 ,http://www.finansbank.com.tr ,398242 fnb tr ,111,FNNBTRIS  ,base.tr
+res_bank_tr_18,GSD Yatırım Bankası A.Ş. ,216-587 90 00 ,216-489 97 74 ,http://www.gsdbank.com.tr ,,139,GSDBTRIS  ,base.tr
+res_bank_tr_19,Habib Bank Limited ,212-246 02 20,212-234 08 07 ,http://www.habibbank.com.tr ,27849 hbl TR ,97,HABBTRIS  ,base.tr
+res_bank_tr_20,HSBC Bank A.Ş. ,212-376 40 00 ,212-336 29 39 ,http://www.hsbc.com.tr ,38385 mdn TR ,123,HSBCTRIX  ,base.tr
+res_bank_tr_21,ING Bank A.Ş. ,212-335 10 00 ,212-286 61 00 ,http://www.ingbank.com.tr ,,99,INGBTRIS  ,base.tr
+res_bank_tr_22,Intesa Sanpaolo S.p.A. ,212- 385 06 00 ,212- 385 06 49 ,http://www.intesasanpaolo.com.tr ,,148,BCITTRIS  ,base.tr
+res_bank_tr_23,İller Bankası A.Ş. ,312- 508 70 00,312-508 73 99,http://www.ilbank.gov.tr ,42723 gnmd tr ,4,-  ,base.tr
+res_bank_tr_24,İstanbul Takas ve Saklama Bankası A.Ş. ,212-315 25 25 ,212-315 25 26 ,http://www.takasbank.com.tr ,,132,TVSBTRIS  ,base.tr
+res_bank_tr_25,JPMorgan Chase Bank N.A. ,212-319 85 00 ,212-319 86 64 ,http://www.jpmorgan.com/pages/international/turkey ,26625 cmb TR ,98,CHASTRIS  ,base.tr
+res_bank_tr_26,Merrill Lynch Yatırım Bank A.Ş. ,212- 319 95 00 ,212- 319 95 11 ,http://www.mlyb.com.tr ,25849 tayb TR ,129,MEYYTRISXXX  ,base.tr
+res_bank_tr_27,Nurol Yatırım Bankası A.Ş. ,212-286 81 00 ,212-286 81 01 ,http://www.nurolbank.com.tr ,,141,NUROTRIS  ,base.tr
+res_bank_tr_28,Odea Bank A.Ş. ,212-304 84 44 ,212-304 84 45 ,http://www.odeabank.com.tr ,,146,ODEATRIS  ,base.tr
+res_bank_tr_29,Pasha Yatırım Bankası A.Ş. ,212-705 89 00 ,212-345 07 12 ,http://www.pashabank.com.tr ,26475 yatb TR ,116,TAIBTRIS  ,base.tr
+res_bank_tr_30,Rabobank A.Ş. ,212-708 46 00 ,212-708 46 99 ,http://www.rabobank.com.tr ,,137,RABOTRIS  ,base.tr
+res_bank_tr_31,Société Générale (SA) ,212-319 34 00 ,212-282 18 48,http://www.sgcib.com.tr ,SOGETRIS ,122,SOGETRIS  ,base.tr
+res_bank_tr_32,Standard Chartered Yatırım Bankası Türk A.Ş. ,212-339 37 00 ,212-282 63 01 ,http://www.standardchartered.com.tr ,,121,BSUITRIS  ,base.tr
+res_bank_tr_33,Şekerbank T.A.Ş. ,212-319 70 00 ,212-319 74 29 ,http://www.sekerbank.com.tr ,46990 skgm- TR eker TR ,59,SEKETR2A  ,base.tr
+res_bank_tr_33,Tekstil Bankası A.Ş. ,212-335 53 35 ,212-328 13 28 ,http://www.tekstilbank.com.tr ,39381 tbak TR ,109,TEKBTRIS  ,base.tr
+res_bank_tr_34,The Royal Bank of Scotland Plc. ,212-359 40 40 ,212-359 50 50 ,http://www.rbsbank.com.tr ,24677 hbu TR ,88,ABNATRIS  ,base.tr
+res_bank_tr_35,Turkish Bank A.Ş. ,212-373 63 73 ,212-225 03 53,http://www.turkishbank.com.tr ,27359 tblı TR ,96,TUBATRIS  ,base.tr
+res_bank_tr_36,Turkland Bank A.Ş. ,212-368 34 34 ,212-368 35 35 ,http://www.tbank.com.tr ,25461-25462 ,108,TBNKTRIS  ,base.tr
+res_bank_tr_37,Türk Ekonomi Bankası A.Ş. ,216-635 35 35 ,216-636 36 36 ,http://www.teb.com.tr ,25358 tebu TR ,32,TEBUTRIS  ,base.tr
+res_bank_tr_38,Türk Eximbank ,216- 666 55 00 ,216- 666 55 99 ,http://www.eximbank.gov.tr ,46751 exmb TR ,16,TIKBTR2A  ,base.tr
+res_bank_tr_39,Türkiye Cumhuriyeti Ziraat Bankası A.Ş. ,312-584 20 00 ,312-584 25 51 ,http://www.ziraatbank.com.tr ,44004 zbhm TR ,10,TCZBTR2A  ,base.tr
+res_bank_tr_40,Türkiye Garanti Bankası A.Ş. ,212-318 18 18 ,212-318 18 88 ,http://www.garanti.com.tr ,27635 gatı TR ,62,TGBATRIS  ,base.tr
+res_bank_tr_41,Türkiye Halk Bankası A.Ş. ,216-503 70 70 ,212-340 93 99 ,http://www.halkbank.com.tr ,TRHBTR2A ,12,TRHBTR2A  ,base.tr
+res_bank_tr_42,Türkiye İş Bankası A.Ş. ,212-316 00 00 ,212-316 09 00,http://www.isbank.com.tr ,42082 tab TR ,64,ISBKTRIS  ,base.tr
+res_bank_tr_43,Türkiye Kalkınma Bankası A.Ş. ,312-231 84 00,312-231 31 25 ,http://www.kalkinma.com.tr ,43206 turb-TR ,17,TKBNTR2A  ,base.tr
+res_bank_tr_44,Türkiye Sınai Kalkınma Bankası A.Ş. ,212-334 50 50 ,212-334 52 34 ,http://www.tskb.com.tr ,24344 tskb TR ,14,TSKBTRIS  ,base.tr
+res_bank_tr_45,Türkiye Vakıflar Bankası T.A.O. ,212 398 15 15,212 398 11 55 ,http://www.vakifbank.com.tr ,46023 vbho-tr ,15,TVBATR2A  ,base.tr
+res_bank_tr_46,Yapı ve Kredi Bankası A.Ş. ,212-339 70 00 ,212-339 60 00 ,http://www.yapikredi.com.tr ,931002 ykge TR ,67,YAPITRISFEX  ,base.tr

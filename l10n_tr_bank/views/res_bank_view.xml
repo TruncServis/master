@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Bank Form  inherit -->
+    <record id="view_res_bank_form_tr" model="ir.ui.view">
+        <field name="name">res.bank.form</field>
+        <field name="model">res.bank</field>
+        <field name="inherit_id" ref="base.view_res_bank_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='bic']" position="after">
+                <field name="eft_code"/>
+                <field name="branch_name"/>
+				<field name="branch_code"/>
+            </xpath>
+            <xpath expr="//field[@name='email']" position="after">
+                <field name="teleks"/>
+                <field name="website"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Bank tree  inherit -->
+    <record id="view_res_bank_tree_tr" model="ir.ui.view">
+        <field name="name">res.bank.tree</field>
+        <field name="model">res.bank</field>
+        <field name="inherit_id" ref="base.view_res_bank_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='bic']" position="after">
+                <field name="eft_code"/>
+                <field name="branch_name"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
+
