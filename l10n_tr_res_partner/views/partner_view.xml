@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <record id="res_partner_tax_offices_form" model="ir.ui.view">
+            <field name="name">res.partner.form.tax_offices</field>
+            <field name="inherit_id" ref="base_vat.view_partner_form"/>
+            <field name="model">res.partner</field>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='vat']" position="after">
+                    <field name="tax_offices" placeholder="e.g. Kadıköy"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
