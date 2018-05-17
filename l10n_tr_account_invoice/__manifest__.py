@@ -9,10 +9,9 @@
     'license': 'AGPL-3',
     'website': 'http://truncservis.com',
     'category': 'Localization',
-    'depends': ['account', 'l10n_tr'],
+    'depends': ['account'],
     'data': [
         'views/amount_word_view.xml',
-        #'views/tevkifat_kdv.xml',
     ],
 
     'application': False,

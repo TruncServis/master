@@ -30,7 +30,7 @@ class ResPartner(models.Model):
     @api.model
     def cron_reconciliation_letter_create(self):
         # print "print"
-        # su_id = self.env['res.partner'].browse(SUPERUSER_ID)
+
         for letter in self.env['res.partner'].search([]):
             if letter.reconciliation_letter == True:
                 if letter:

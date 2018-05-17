@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-   
-	<!-- followup of customers views -->
-	<record id="reconciliation_letter_form" model="ir.ui.view">
-		<field name="name">res.partner.inherit.letter.form</field>
-		<field name="model">res.partner</field>
-		<field name="priority" eval="5"/>
-		<field name="inherit_id" ref="base.view_partner_form"/>
-		<!-- <field name="groups_id" eval="[(4, ref('account.group_account_invoice'))]"/> -->
-		<field name="arch" type="xml">
-			<field name="trust" position="after">
-				<field name="reconciliation_letter"/>
-				<button name="action_letter_send" type="object" icon="fa-expand" string="Send by Email" attrs="{'invisible':[('reconciliation_letter', '!=', True)]}" />
-				<!--<button name="button_send_letter" type="object" string="Send by Email2" attrs="{'invisible':[('reconciliation_letter', '!=', True)]}" />-->
-			</field>
-		</field>
-	</record>
-		
+
+    <!-- followup of customers views -->
+    <record id="reconciliation_letter_form" model="ir.ui.view">
+        <field name="name">res.partner.inherit.letter.form</field>
+        <field name="model">res.partner</field>
+        <field name="priority" eval="5"/>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <!-- <field name="groups_id" eval="[(4, ref('account.group_account_invoice'))]"/> -->
+        <field name="arch" type="xml">
+            <field name="trust" position="after">
+                <field name="reconciliation_letter"/>
+                <button name="action_letter_send" type="object" icon="fa-expand" string="Send by Email"
+                        attrs="{'invisible':[('reconciliation_letter', '!=', True)]}"/>
+                <!--<button name="button_send_letter" type="object" string="Send by Email2" attrs="{'invisible':[('reconciliation_letter', '!=', True)]}" />-->
+            </field>
+        </field>
+    </record>
+
 </odoo>
