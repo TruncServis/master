@@ -6,4 +6,4 @@ from odoo import api, fields, models, _
 class AccountTax(models.Model):
     _inherit = 'account.tax'
 
-    code = fields.Char(size=4,  string='Kodu')
+    tax_code = fields.Char(string='Vergi Kodu')

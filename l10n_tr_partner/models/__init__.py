@@ -3,3 +3,5 @@
 from . import company
 from . import res_partner
 from . import tax_offices
+from . import account_tax
+from . import uom_uom

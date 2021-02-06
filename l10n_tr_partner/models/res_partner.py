@@ -18,11 +18,6 @@ class ResPartner(models.Model):
         return self.env['res.country.state'].search([('country_id', '=', 'TR'), ('code', '=', '34')], limit=1)
 
     # @api.model
-    # def default_get(self, fields):
-    #     res = super(ResPartner, self).default_get(fields)
-    #     res['lang'] = 'tr'
-
-    # @api.model
     # def force_lang(self, lang='tr_TR'):
     #     for partner in self.env['res.partner'].search([]):
     #         partner.lang = lang
