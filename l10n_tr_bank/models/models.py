@@ -8,6 +8,7 @@ class ResBank(models.Model):
     _inherit = 'res.bank'
 
     teleks = fields.Char(string='Telex')
+    fax = fields.Char(string='Telex')
     eft_code = fields.Char(string='EFT Code')
     website = fields.Char(string="Website of Bank")
     branch_code = fields.Char(string="Branch Code")
@@ -19,3 +20,4 @@ class ResPartnerBank(models.Model):
 
     branch_code = fields.Char(string="Branch Code")
     branch_name = fields.Char(string="Branch Name")
+    currency_unit = fields.Char(string="Para Birimi")

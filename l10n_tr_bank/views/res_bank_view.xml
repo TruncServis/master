@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <!-- Bank Form  inherit -->
+    <!-- Partner Form  inherit -->
+    <record id="view_partner_bank_form_tr" model="ir.ui.view">
+        <field name="name">partner.bank.form</field>
+        <field name="model">res.partner.bank</field>
+        <field name="inherit_id" ref="base.view_partner_bank_form"/>
+        <field name="arch" type="xml">
+            <field name='acc_type' position="after">
+                <field name="branch_code"/>
+				<field name="branch_name"/>
+            </field>
+            <field name='acc_holder_name' position="before">
+                <field name="currency_unit"/>
+            </field>
+        </field>
+    </record>
+
     <record id="view_res_bank_form_tr" model="ir.ui.view">
         <field name="name">res.bank.form</field>
         <field name="model">res.bank</field>
@@ -10,7 +25,7 @@
             <xpath expr="//field[@name='bic']" position="after">
                 <field name="eft_code"/>
                 <field name="branch_name"/>
-				<field name="branch_code"/>
+                <field name="branch_code"/>
             </xpath>
             <xpath expr="//field[@name='email']" position="after">
                 <field name="teleks"/>
