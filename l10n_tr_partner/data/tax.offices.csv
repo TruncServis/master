@@ -1,0 +1,82 @@
+id,name,city,code,active
+tax_office_tr_1,Anadolu İhtisas V.D.,Ankara,6280,True
+tax_office_tr_2,Ankara İhtisas V.D.,Ankara,6281,True
+tax_office_tr_3,Kavaklıdere V.D.,Ankara,6253,True
+tax_office_tr_4,Hitit V.D.,Ankara,6268,True
+tax_office_tr_5,Ostim V.D.,Ankara,6271,True
+tax_office_tr_6,Veraset ve Harçlar V.D.,Ankara,6252,True
+tax_office_tr_7,Maltepe V.D.,Ankara,6254,True
+tax_office_tr_8,Yenimahalle V.D.,Ankara,6255,True
+tax_office_tr_9,Çankaya V.D.,Ankara,6257,True
+tax_office_tr_10,Kızılbey V.D.,Ankara,6258,True
+tax_office_tr_11,Mithatpaşa V.D.,Ankara,6259,True
+tax_office_tr_34_1,Silivri V.D.,İstanbul,34203,True
+tax_office_tr_34_2,Büyükçekmece V.D.,İstanbul,34204,True
+tax_office_tr_34_3,Şile V.D.,İstanbul,34205,True
+tax_office_tr_34_4,Çatalca V.D.,İstanbul,34206,True
+tax_office_tr_34_5,Boğaziçi Kurumlar V.D.,İstanbul,34231,True
+tax_office_tr_34_6,Marmara Kurumlar V.D.,İstanbul,34232,True
+tax_office_tr_34_7,Ulaştırma V.D.,İstanbul,34233,True
+tax_office_tr_34_8,Davutpaşa V.D.,İstanbul,34234,True
+tax_office_tr_34_9,Esenler V.D.,İstanbul,34235,True
+tax_office_tr_34_10,Fatih V.D.,İstanbul,34236,True
+tax_office_tr_34_11,Küçükköy V.D.,İstanbul,34237,True
+tax_office_tr_34_12,Laleli V.D.,İstanbul,34238,True
+tax_office_tr_34_13,Merter V.D.,İstanbul,34239,True
+tax_office_tr_34_14,Mevlanakapı V.D.,İstanbul,34240,True
+tax_office_tr_34_15,Rami V.D.,İstanbul,34241,True
+tax_office_tr_34_16,Sultanbeyli V.D.,İstanbul,34242,True
+tax_office_tr_34_17,Süleymaniye V.D.,İstanbul,34243,True
+tax_office_tr_34_18,Anadolu Kurumlar V.D.,İstanbul,34244,True
+tax_office_tr_34_19,Tuzla V.D.,İstanbul,34245,True
+tax_office_tr_34_20,Kozyatağı V.D.,İstanbul,34246,True
+tax_office_tr_34_21,Maslak V.D.,İstanbul,34247,True
+tax_office_tr_34_22,Zincirlikuyu V.D.,İstanbul,34248,True
+tax_office_tr_34_23,İkitelli V.D.,İstanbul,34249,True
+tax_office_tr_34_24,Çapa V.D.,İstanbul,34250,True
+tax_office_tr_34_25,Beşiktaş V.D.,İstanbul,34251,True
+tax_office_tr_34_26,Ümraniye V.D.,İstanbul,34252,True
+tax_office_tr_34_27,Yeditepe V.D.,İstanbul,34253,True
+tax_office_tr_34_28,Gayrettepe V.D.,İstanbul,34254,True
+tax_office_tr_34_29,Erenköy V.D.,İstanbul,34255,True
+tax_office_tr_34_30,Hisar Ver. Harçlar V.D.,İstanbul,34256,True
+tax_office_tr_34_31,Tuna V.D.,İstanbul,34257,True
+tax_office_tr_34_32,Rıhtım Ver.Harçlar V.D.,İstanbul,34258,True
+tax_office_tr_34_33,Güngören V.D.,İstanbul,34259,True
+tax_office_tr_34_34,Kocasinan V.D.,İstanbul,34260,True
+tax_office_tr_34_35,Güneşli V.D.,İstanbul,34261,True
+tax_office_tr_34_36,Küçükyalı V.D.,İstanbul,34262,True
+tax_office_tr_34_37,Pendik V.D.,İstanbul,34263,True
+tax_office_tr_34_38,Bayrampaşa V.D.,İstanbul,34264,True
+tax_office_tr_34_39,Beyazıt V.D.,İstanbul,34265,True
+tax_office_tr_34_40,Beyoğlu V.D.,İstanbul,34266,True
+tax_office_tr_34_41,Nuruosmaniye V.D.,İstanbul,34267,True
+tax_office_tr_34_42,Galata V.D.,İstanbul,34268,True
+tax_office_tr_34_43,Gaziosmanpaşa V.D.,İstanbul,34269,True
+tax_office_tr_34_44,Göztepe V.D.,İstanbul,34270,True
+tax_office_tr_34_45,Hocapaşa V.D.,İstanbul,34271,True
+tax_office_tr_34_46,Kadıköy V.D.,İstanbul,34272,True
+tax_office_tr_34_47,Kocamustafapaşa V.D.,İstanbul,34273,True
+tax_office_tr_34_48,Mecidiyeköy V.D.,İstanbul,34274,True
+tax_office_tr_34_49,Mercan V.D.,İstanbul,34275,True
+tax_office_tr_34_50,Şişli V.D.,İstanbul,34276,True
+tax_office_tr_34_51,Üsküdar V.D.,İstanbul,34277,True
+tax_office_tr_34_52,Halkalı V.D.,İstanbul,34278,True
+tax_office_tr_34_53,Kağıthane V.D.,İstanbul,34279,True
+tax_office_tr_34_54,Zeytinburnu V.D.,İstanbul,34280,True
+tax_office_tr_34_55,Beykoz V.D.,İstanbul,34281,True
+tax_office_tr_34_56,Sarıyer V.D.,İstanbul,34283,True
+tax_office_tr_34_57,Bakırköy V.D.,İstanbul,34284,True
+tax_office_tr_34_58,Kartal V.D.,İstanbul,34285,True
+tax_office_tr_34_59,Sultanahmet V.D.,İstanbul,34286,True
+tax_office_tr_34_60,Nakil Vasıtaları V.D.,İstanbul,34287,True
+tax_office_tr_34_61,Sarıgazi V.D.,İstanbul,34288,True
+tax_office_tr_34_62,Dış Ticaret V.D.,İstanbul,34289,True
+tax_office_tr_34_63,Atışalanı V.D.,İstanbul,34291,True
+tax_office_tr_34_64,Yakacık V.D.,İstanbul,34292,True
+tax_office_tr_34_65,Yeni Bosna V.D.,İstanbul,34293,True
+tax_office_tr_34_66,Avcılar V.D.,İstanbul,34294,True
+tax_office_tr_34_67,Adalar V.D.,İstanbul,34295,True
+tax_office_tr_34_68,Küçükçekmece V.D.,İstanbul,34296,True
+tax_office_tr_34_69,Beylikdüzü V.D.,İstanbul,34297,True
+tax_office_tr_34_70,Büyükmükellefler V.D. Başkanlığı,İstanbul,34230,True

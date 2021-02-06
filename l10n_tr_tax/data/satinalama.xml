@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- <data noupdate="0"> -->
+
+    <!-- Account Tax Tags -->
+    <record id="tag_tevkifat" model="account.account.tag">
+        <field name="name">Tevkifat</field>
+        <field name="applicability">taxes</field>
+    </record>
+    <!-- Account Tax Group -->
+    <record id="tax_group_tevkifat_beyan" model="account.tax.group">
+        <field name="name">Beyan Edilecek KDV</field>
+    </record>
+    <record id="tax_group_tevkifat" model="account.tax.group">
+        <field name="name">Tevkifat</field>
+    </record>
+
+    <!-- account.tax.template -->
+
+    <!-- account.tax -->
+    <record id="tr_alim_tevkifat_18" model="account.tax">
+        <field name="sequence">20</field>
+        <field name="name">%18 Toplam KDV</field>
+        <field name="description">%18 KDV Toplamı</field>
+		<field name="active" eval="True"/>
+        <field name="price_include" eval="0"/>
+        <field name="amount">18</field>
+        <field name="amount_type">percent</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="account_id" ref="l10n_tr.tr391"/>
+        <field name="refund_account_id" ref="l10n_tr.tr191"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_2_10" model="account.tax">
+        <field name="sequence">11</field>
+        <field name="name">Tevkifat 2/10</field>
+        <field name="description">2/10 Tefkif Edilen KDV</field>
+		<field name="active" eval="True"/>
+        <field name="amount" eval="0"/>
+        <field name="amount_type">code</field>
+        <field name="python_compute">result = (price_unit * quantity * 0.18) * -20 / 100</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="account_id" ref="l10n_tr.tr391"/>
+        <field name="refund_account_id" ref="l10n_tr.tr191"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_3_10" model="account.tax">
+        <field name="sequence">12</field>
+        <field name="name">Tevkifat 3/10</field>
+        <field name="description">3/10 Tefkif Edilen KDV</field>
+		<field name="active" eval="True"/>
+        <field name="account_id" ref="l10n_tr.tr391"/>
+        <field name="refund_account_id" ref="l10n_tr.tr191"/>
+        <field name="amount_type">code</field>
+        <field name="python_compute">result = (price_unit * quantity * 0.18) * -30 / 100</field>
+        <field name="amount" eval="0"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_4_10" model="account.tax">
+        <field name="sequence">13</field>
+        <field name="name">Tevkifat 4/10</field>
+        <field name="description">4/10 Tefkif Edilen KDV</field>
+		<field name="active" eval="True"/>
+        <field name="account_id" ref="l10n_tr.tr391"/>
+        <field name="refund_account_id" ref="l10n_tr.tr191"/>
+        <field name="amount_type">code</field>
+        <field name="python_compute">result = (price_unit * quantity * 0.18) * -40 / 100</field>
+        <field name="amount" eval="0"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_5_10" model="account.tax">
+        <field name="sequence">14</field>
+        <field name="name">Tevkifat 5/10</field>
+        <field name="description">5/10 Tefkif Edilen KDV</field>
+		<field name="active" eval="True"/>
+        <field name="account_id" ref="l10n_tr.tr391"/>
+        <field name="refund_account_id" ref="l10n_tr.tr191"/>
+        <field name="amount_type">code</field>
+        <field name="python_compute">result = (price_unit * quantity * 0.18) * -50 / 100</field>
+        <field name="amount" eval="0"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_6_10" model="account.tax">
+        <field name="sequence">15</field>
+        <field name="name">Tevkifat 6/10</field>
+        <field name="description">6/10 Tefkif Edilen KDV</field>
+		<field name="active" eval="True"/>
+        <field name="account_id" ref="l10n_tr.tr391"/>
+        <field name="refund_account_id" ref="l10n_tr.tr191"/>
+        <field name="amount_type">code</field>
+        <field name="python_compute">result = (price_unit * quantity * 0.18) * -60 / 100</field>
+        <field name="amount" eval="0"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_7_10" model="account.tax">
+        <field name="sequence">16</field>
+        <field name="name">Tevkifat 7/10</field>
+        <field name="description">7/10 Tefkif Edilen KDV</field>
+		<field name="active" eval="True"/>
+        <field name="account_id" ref="l10n_tr.tr391"/>
+        <field name="refund_account_id" ref="l10n_tr.tr191"/>
+        <field name="amount_type">code</field>
+        <field name="python_compute">result = (price_unit * quantity * 0.18) * -70 / 100</field>
+        <field name="amount" eval="0"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_8_10" model="account.tax">
+        <field name="sequence">17</field>
+        <field name="name">Tevkifat 8/10</field>
+        <field name="description">8/10 Tefkif Edilen KDV</field>
+		<field name="active" eval="True"/>
+        <field name="account_id" ref="l10n_tr.tr391"/>
+        <field name="refund_account_id" ref="l10n_tr.tr191"/>
+        <field name="amount_type">code</field>
+        <field name="python_compute">result = (price_unit * quantity * 0.18) * -80 / 100</field>
+        <field name="amount" eval="0"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_9_10" model="account.tax">
+        <field name="sequence">18</field>
+        <field name="name">Tevkifat 9/10</field>
+        <field name="description">9/10 Tefkif Edilen KDV</field>
+		<field name="active" eval="True"/>
+        <field name="account_id" ref="l10n_tr.tr391"/>
+        <field name="refund_account_id" ref="l10n_tr.tr191"/>
+        <field name="amount_type">code</field>
+        <field name="python_compute">result = (price_unit * quantity * 0.18) * -90 / 100</field>
+        <field name="amount" eval="0"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+
+    <!-- Vergi Grup -->
+    <record id="tr_alim_tevkifat_grub_2_10" model="account.tax">
+        <field name="name">2/10(Grup)</field>
+        <field name="description">2/10</field>
+        <field name="amount">1.00</field>
+        <field name="sequence" eval="1"/>
+        <field name="amount_type">group</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="children_tax_ids"
+               eval="[(6, 0, [ref('tr_alim_tevkifat_18'), ref('tr_alim_tevkifat_2_10')])]"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_grub_3_10" model="account.tax">
+        <field name="name">3/10(Grup)</field>
+        <field name="description">3/10</field>
+        <field name="amount">1.00</field>
+        <field name="sequence" eval="1"/>
+        <field name="amount_type">group</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="children_tax_ids"
+               eval="[(6, 0, [ref('tr_alim_tevkifat_18'), ref('tr_alim_tevkifat_3_10')])]"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_grub_4_10" model="account.tax">
+        <field name="name">4/10(Grup)</field>
+        <field name="description">4/10</field>
+        <field name="amount">1.00</field>
+        <field name="sequence" eval="1"/>
+        <field name="amount_type">group</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="children_tax_ids"
+               eval="[(6, 0, [ref('tr_alim_tevkifat_18'), ref('tr_alim_tevkifat_4_10')])]"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_grub_5_10" model="account.tax">
+        <field name="name">5/10(Grup)</field>
+        <field name="description">5/10</field>
+        <field name="amount">1.00</field>
+        <field name="sequence" eval="1"/>
+        <field name="amount_type">group</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="children_tax_ids"
+               eval="[(6, 0, [ref('tr_alim_tevkifat_18'), ref('tr_alim_tevkifat_5_10')])]"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_grub_6_10" model="account.tax">
+        <field name="name">6/10(Grup)</field>
+        <field name="description">6/10</field>
+        <field name="amount">1.00</field>
+        <field name="sequence" eval="1"/>
+        <field name="amount_type">group</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="children_tax_ids"
+               eval="[(6, 0, [ref('tr_alim_tevkifat_18'), ref('tr_alim_tevkifat_6_10')])]"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_grub_7_10" model="account.tax">
+        <field name="name">7/10(Grup)</field>
+        <field name="description">7/10</field>
+        <field name="amount">1.00</field>
+        <field name="sequence" eval="1"/>
+        <field name="amount_type">group</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="children_tax_ids"
+               eval="[(6, 0, [ref('tr_alim_tevkifat_18'), ref('tr_alim_tevkifat_7_10')])]"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_grub_8_10" model="account.tax">
+        <field name="name">8/10(Grup)</field>
+        <field name="description">8/10</field>
+        <field name="amount">1.00</field>
+        <field name="sequence" eval="1"/>
+        <field name="amount_type">group</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="children_tax_ids"
+               eval="[(6, 0, [ref('tr_alim_tevkifat_18'), ref('tr_alim_tevkifat_8_10')])]"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+    <record id="tr_alim_tevkifat_grub_9_10" model="account.tax">
+        <field name="name">9/10(Grup)</field>
+        <field name="description">9/10</field>
+        <field name="amount">1.00</field>
+        <field name="sequence" eval="1"/>
+        <field name="amount_type">group</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="children_tax_ids"
+               eval="[(6, 0, [ref('tr_alim_tevkifat_18'), ref('tr_alim_tevkifat_9_10')])]"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_tevkifat')])]"/>
+        <field name="tax_group_id" ref="tax_group_tevkifat"/>
+    </record>
+
+    <!-- </data> -->
+
+</odoo>

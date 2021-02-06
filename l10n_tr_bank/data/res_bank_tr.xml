@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record model="res.bank" id="bank_tr_ada">
+            <field name="name">Adabank A.Ş.</field>
+            <field name="bic">AKBKTRIS </field>
+        </record>
+
+        <record model="res.bank" id="bank_tr_ak">
+            <field name="name">Akbank A.Ş.</field>
+            <field name="bic">AKBKTRIS</field>
+        </record>
+		 <record model="res.bank" id="bank_tr_ak">
+            <field name="name">Aktif Yatırım Bankası A.Ş.</field>
+            <field name="bic">CAYTTRIS</field>
+        </record>
+		 <record model="res.bank" id="bank_tr_ak">
+            <field name="name">Alternatifbank A.Ş.</field>
+            <field name="bic">AKBKTRIS</field>
+        </record>
+		 <record model="res.bank" id="bank_tr_ak">
+            <field name="name">Anadolubank A.Ş.</field>
+            <field name="bic">AKBKTRIS</field>
+        </record>
+		 <record model="res.bank" id="bank_tr_ak">
+            <field name="name">Akbank A.Ş.</field>
+            <field name="bic">AKBKTRIS</field>
+        </record>
+		 <record model="res.bank" id="bank_tr_ak">
+            <field name="name">Akbank A.Ş.</field>
+            <field name="bic">AKBKTRIS</field>
+        </record>
+		 <record model="res.bank" id="bank_tr_ak">
+            <field name="name">Akbank A.Ş.</field>
+            <field name="bic">AKBKTRIS</field>
+        </record>
+		 <record model="res.bank" id="bank_tr_ak">
+            <field name="name">Akbank A.Ş.</field>
+            <field name="bic">AKBKTRIS</field>
+        </record>
+		 <record model="res.bank" id="bank_tr_ak">
+            <field name="name">Akbank A.Ş.</field>
+            <field name="bic">AKBKTRIS</field>
+        </record>
+		 <record model="res.bank" id="bank_tr_ak">
+            <field name="name">Akbank A.Ş.</field>
+            <field name="bic">AKBKTRIS</field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo noupdate="1">
+
+    <record id="state_tr_01" model="res.country.state">
+        <field name="name">Adana</field>
+        <field name="code">01</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_02" model="res.country.state">
+        <field name="name">Adıyaman</field>
+        <field name="code">02</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_03" model="res.country.state">
+        <field name="name">Afyonkarahisar</field>
+        <field name="code">03</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_04" model="res.country.state">
+        <field name="name">Ağrı</field>
+        <field name="code">04</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_05" model="res.country.state">
+        <field name="name">Amasya</field>
+        <field name="code">05</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_06" model="res.country.state">
+        <field name="name">Ankara</field>
+        <field name="code">06</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_07" model="res.country.state">
+        <field name="name">Antalya</field>
+        <field name="code">07</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_08" model="res.country.state">
+        <field name="name">Artvin</field>
+        <field name="code">08</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_09" model="res.country.state">
+        <field name="name">Aydın</field>
+        <field name="code">09</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_10" model="res.country.state">
+        <field name="name">Balıkesir</field>
+        <field name="code">10</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_11" model="res.country.state">
+        <field name="name">Bilecik</field>
+        <field name="code">11</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_12" model="res.country.state">
+        <field name="name">Bingöl</field>
+        <field name="code">12</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_13" model="res.country.state">
+        <field name="name">Bitlis</field>
+        <field name="code">13</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_14" model="res.country.state">
+        <field name="name">Bolu</field>
+        <field name="code">14</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_15" model="res.country.state">
+        <field name="name">Burdur</field>
+        <field name="code">15</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_16" model="res.country.state">
+        <field name="name">Bursa</field>
+        <field name="code">16</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_17" model="res.country.state">
+        <field name="name">Çanakkale</field>
+        <field name="code">17</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_18" model="res.country.state">
+        <field name="name">Çankırı</field>
+        <field name="code">18</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_19" model="res.country.state">
+        <field name="name">Çorum</field>
+        <field name="code">19</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_20" model="res.country.state">
+        <field name="name">Denizli</field>
+        <field name="code">20</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_21" model="res.country.state">
+        <field name="name">Diyarbakır</field>
+        <field name="code">21</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_22" model="res.country.state">
+        <field name="name">Edirne</field>
+        <field name="code">22</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_23" model="res.country.state">
+        <field name="name">Elazığ</field>
+        <field name="code">23</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_24" model="res.country.state">
+        <field name="name">Erzincan</field>
+        <field name="code">24</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_25" model="res.country.state">
+        <field name="name">Erzurum</field>
+        <field name="code">25</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_26" model="res.country.state">
+        <field name="name">Eskişehir</field>
+        <field name="code">26</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_27" model="res.country.state">
+        <field name="name">Gaziantep</field>
+        <field name="code">27</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_28" model="res.country.state">
+        <field name="name">Giresun</field>
+        <field name="code">28</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_29" model="res.country.state">
+        <field name="name">Gümüşhane</field>
+        <field name="code">29</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_30" model="res.country.state">
+        <field name="name">Hakkari</field>
+        <field name="code">30</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_31" model="res.country.state">
+        <field name="name">Hatay</field>
+        <field name="code">31</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_32" model="res.country.state">
+        <field name="name">Isparta</field>
+        <field name="code">32</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_33" model="res.country.state">
+        <field name="name">Mersin</field>
+        <field name="code">33</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_34" model="res.country.state">
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+        <field name="name">İstanbul</field>
+        <field name="code">34</field>
+    </record>
+    <record id="state_tr_35" model="res.country.state">
+        <field name="name">İzmir</field>
+        <field name="code">35</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_36" model="res.country.state">
+        <field name="name">Kars</field>
+        <field name="code">36</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_37" model="res.country.state">
+        <field name="name">Kastamonu</field>
+        <field name="code">37</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_38" model="res.country.state">
+        <field name="name">Kayseri</field>
+        <field name="code">38</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_39" model="res.country.state">
+        <field name="name">Kırklareli</field>
+        <field name="code">39</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_40" model="res.country.state">
+        <field name="name">Kırşehir</field>
+        <field name="code">40</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_41" model="res.country.state">
+        <field name="name">Kocaeli (İZMİT)</field>
+        <field name="code">41</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_42" model="res.country.state">
+        <field name="name">Konya</field>
+        <field name="code">42</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_43" model="res.country.state">
+        <field name="name">Kütahya</field>
+        <field name="code">43</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_44" model="res.country.state">
+        <field name="name">Malatya</field>
+        <field name="code">44</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_45" model="res.country.state">
+        <field name="name">Manisa</field>
+        <field name="code">45</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_46" model="res.country.state">
+        <field name="name">Kahramanmaraş</field>
+        <field name="code">46</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_47" model="res.country.state">
+        <field name="name">Mardin</field>
+        <field name="code">47</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_48" model="res.country.state">
+        <field name="name">Muğla</field>
+        <field name="code">48</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_49" model="res.country.state">
+        <field name="name">Muş</field>
+        <field name="code">49</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_50" model="res.country.state">
+        <field name="name">Nevşehir</field>
+        <field name="code">50</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_51" model="res.country.state">
+        <field name="name">Niğde</field>
+        <field name="code">51</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_52" model="res.country.state">
+        <field name="name">Ordu</field>
+        <field name="code">52</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_53" model="res.country.state">
+        <field name="name">Rize</field>
+        <field name="code">53</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_54" model="res.country.state">
+        <field name="name">Sakarya (ADAPAZARI)</field>
+        <field name="code">54</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_55" model="res.country.state">
+        <field name="name">Samsun</field>
+        <field name="code">55</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_56" model="res.country.state">
+        <field name="name">Siirt</field>
+        <field name="code">56</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_57" model="res.country.state">
+        <field name="name">Sinop</field>
+        <field name="code">57</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_58" model="res.country.state">
+        <field name="name">Sivas</field>
+        <field name="code">58</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_59" model="res.country.state">
+        <field name="name">Tekirdağ</field>
+        <field name="code">59</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_60" model="res.country.state">
+        <field name="name">Tokat</field>
+        <field name="code">60</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_61" model="res.country.state">
+        <field name="name">Trabzon</field>
+        <field name="code">61</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_62" model="res.country.state">
+        <field name="name">Tunceli</field>
+        <field name="code">62</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_63" model="res.country.state">
+        <field name="name">Şanlıurfa</field>
+        <field name="code">63</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_64" model="res.country.state">
+        <field name="name">Uşak</field>
+        <field name="code">64</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_65" model="res.country.state">
+        <field name="name">Van</field>
+        <field name="code">65</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_66" model="res.country.state">
+        <field name="name">Yozgat</field>
+        <field name="code">66</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_67" model="res.country.state">
+        <field name="name">Zonguldak</field>
+        <field name="code">67</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_68" model="res.country.state">
+        <field name="name">Aksaray</field>
+        <field name="code">68</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_69" model="res.country.state">
+        <field name="name">Bayburt</field>
+        <field name="code">69</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_70" model="res.country.state">
+        <field name="name">Karaman</field>
+        <field name="code">70</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_71" model="res.country.state">
+        <field name="name">Kırıkkale</field>
+        <field name="code">71</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_72" model="res.country.state">
+        <field name="name">Batman</field>
+        <field name="code">72</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_73" model="res.country.state">
+        <field name="name">Şırnak</field>
+        <field name="code">73</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_74" model="res.country.state">
+        <field name="name">Bartın</field>
+        <field name="code">74</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_75" model="res.country.state">
+        <field name="name">Ardahan</field>
+        <field name="code">75</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_76" model="res.country.state">
+        <field name="name">Iğdır</field>
+        <field name="code">76</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_77" model="res.country.state">
+        <field name="name">Yalova</field>
+        <field name="code">77</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_78" model="res.country.state">
+        <field name="name">Karabük</field>
+        <field name="code">78</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_79" model="res.country.state">
+        <field name="name">Kilis</field>
+        <field name="code">79</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_80" model="res.country.state">
+        <field name="name">Osmaniye</field>
+        <field name="code">80</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+    <record id="state_tr_81" model="res.country.state">
+        <field name="name">Düzce</field>
+        <field name="code">81</field>
+        <field model="res.country" name="country_id" search="[('code','=','TR')]"/>
+    </record>
+
+
+</odoo>

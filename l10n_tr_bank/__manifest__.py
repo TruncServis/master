@@ -5,10 +5,10 @@
     'name': 'Turkey Banking',
     'summary': 'Bank',
     'author': 'TruncServis',
-    'version': '10.0.1.0.0',
+    'version': '13.0.1.0',
     'license': 'AGPL-3',
     'website': 'http://truncservis.com',
-    'category': 'Base',
+    'category': 'Localization',
     'depends': ['base'],
     'data': [
         'data/res.bank.csv',

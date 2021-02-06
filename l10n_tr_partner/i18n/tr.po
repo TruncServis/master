@@ -1,0 +1,133 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_tr_partner
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-05 13:26+0000\n"
+"PO-Revision-Date: 2019-10-05 13:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_tax_offices__active
+msgid "Active"
+msgstr "Etkin"
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_res_partner__state_id
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_res_users__state_id
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_tax_offices__city
+msgid "City"
+msgstr "Semt/İlçe"
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_tax_offices__code
+msgid "Code"
+msgstr "Kod"
+
+#. module: l10n_tr_partner
+#: model:ir.model,name:l10n_tr_partner.model_res_company
+msgid "Companies"
+msgstr "Şirketler"
+
+#. module: l10n_tr_partner
+#: model:ir.model,name:l10n_tr_partner.model_res_partner
+msgid "Contact"
+msgstr "Kontak"
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_res_partner__country_id
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_res_users__country_id
+#: model_terms:ir.ui.view,arch_db:l10n_tr_partner.view_country_state_filter_tr
+msgid "Country"
+msgstr "Ülke"
+
+#. module: l10n_tr_partner
+#: model_terms:ir.actions.act_window,help:l10n_tr_partner.action_tax_offices
+msgid "Create a tax office"
+msgstr ""
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_tax_offices__create_uid
+msgid "Created by"
+msgstr "Oluşturan"
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_tax_offices__create_date
+msgid "Created on"
+msgstr "Oluşturulma"
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_tax_offices__display_name
+msgid "Display Name"
+msgstr "Görünüm Adı"
+
+#. module: l10n_tr_partner
+#: model_terms:ir.ui.view,arch_db:l10n_tr_partner.tax_offices_form
+msgid "Event Type"
+msgstr ""
+
+#. module: l10n_tr_partner
+#: model_terms:ir.ui.view,arch_db:l10n_tr_partner.view_country_state_filter_tr
+msgid "Filter Country"
+msgstr ""
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_tax_offices__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_tax_offices____last_update
+msgid "Last Modified on"
+msgstr "Son Güncelleme"
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_tax_offices__write_uid
+msgid "Last Updated by"
+msgstr "Son Güncelleyen"
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_tax_offices__write_date
+msgid "Last Updated on"
+msgstr "Son Güncelleme"
+
+#. module: l10n_tr_partner
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_tax_offices__name
+msgid "Name"
+msgstr "Adı"
+
+#. module: l10n_tr_partner
+#: model_terms:ir.ui.view,arch_db:l10n_tr_partner.res_partner_tax_offices_form
+#: model_terms:ir.ui.view,arch_db:l10n_tr_partner.view_partner_tree2
+#: model_terms:ir.ui.view,arch_db:l10n_tr_partner.view_res_partner_filter_tr
+msgid "State"
+msgstr "İl/Eyalet"
+
+#. module: l10n_tr_partner
+#: model:ir.actions.act_window,name:l10n_tr_partner.action_tax_offices
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_res_company__tax_office_id
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_res_partner__tax_office_id
+#: model:ir.model.fields,field_description:l10n_tr_partner.field_res_users__tax_office_id
+#: model:ir.ui.menu,name:l10n_tr_partner.menu_action_tax_offices
+#: model_terms:ir.ui.view,arch_db:l10n_tr_partner.tax_offices_tree
+msgid "Tax Offices"
+msgstr "Vergi Dairesi"
+
+#. module: l10n_tr_partner
+#: model:ir.model,name:l10n_tr_partner.model_tax_offices
+msgid "Turkey tax offices"
+msgstr "Türkiye Vergi Daireleri"
+
+#. module: l10n_tr_partner
+#: model_terms:ir.ui.view,arch_db:l10n_tr_partner.res_partner_tax_offices_form
+#: model_terms:ir.ui.view,arch_db:l10n_tr_partner.view_partner_short_form_tax_offices
+msgid "e.g. Kadıköy"
+msgstr ""
