@@ -3,15 +3,23 @@
 
 {
     'name': 'Turkish Tax Customization',
-    'summary': 'Tefkifatlı KDV',
+    'summary': 'Tevkifatlı KDV',
     'author': 'TruncServis',
-    'version': '10.0.1.0',
+    'version': '13.0.1.0',
     'license': 'AGPL-3',
     'website': 'http://truncservis.com',
-    'category': 'account',
-    'depends': ['account', 'base_vat', 'l10n_tr', 'account_tax_python'],
+    'category': 'Localization',
+    'depends': ['account',
+                # 'base_vat',
+                'l10n_tr',
+                # 'account_tax_python'
+                ],
     'data': [
-        'data/account_tax_tevkifat.xml',
+        # 'data/account_tax_tevkifat.xml',
+        'data/account_tax_tevkifat_satis.xml',
+        'data/account_tax_tevkifat_satinalma.xml',
+        # 'data/satinalama.xml',
+        'views/account_tax.xml',
     ],
 
     'application': False,

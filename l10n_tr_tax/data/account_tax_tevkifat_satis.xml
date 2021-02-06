@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <data noupdate="1">
+    <!-- <data> -->
+
+        <!-- Account Tax Group -->
+        <record id="tax_group_tevkifat_satis" model="account.tax.group">
+            <field name="name">Tevkifat</field>
+        </record>
+        <record id="tax_group_tevkifat_satis_kdv" model="account.tax.group">
+            <field name="name">Katma Değer Vergisi Tevkifatı</field>
+        </record>
+        <record id="tax_group_kdv_satis" model="account.tax.group">
+            <field name="name">Katma Değer Vergisi(KDV)</field>
+        </record>
+
+        <!-- account.tax.template -->
+        <!-- Sale -->
+        <!-- account.tax -->
+
+        <record id="tr_satis_kdv_1" model="account.tax">
+            <field name="sequence">3</field>
+            <field name="name">%1 Satış KDV</field>
+            <field name="description">%1 Satış KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount">1</field>
+            <field name="amount_type">percent</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_kdv_satis"/>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+        <record id="tr_satis_kdv_8" model="account.tax">
+            <field name="sequence">5</field>
+            <field name="name">%8 Satış KDV</field>
+            <field name="description">%8 Satış KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount">8</field>
+            <field name="amount_type">percent</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_kdv_satis"/>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+        <record id="tr_satis_kdv_18" model="account.tax">
+            <field name="sequence" eval="1"/>
+            <field name="name">%18 Satış KDV</field>
+            <field name="description">%18 Satış KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount">18</field>
+            <field name="amount_type">percent</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_kdv_satis"/>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+
+        <!-- tevkifat -->
+
+        <record id="tr_satis_tevkifat_1_10" model="account.tax">
+            <field name="sequence">10</field>
+            <field name="name">Tevkifat 1/10</field>
+            <field name="description">(1/10) Tevkif Edilen KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="-1.8000"/>
+            <field name="type_tax_use">none</field>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+
+        <record id="tr_satis_tevkifat_2_10" model="account.tax">
+            <field name="sequence">11</field>
+            <field name="name">Tevkifat 2/10</field>
+            <field name="description">(2/10) Tevkif Edilen KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="-3.6000"/>
+            <field name="type_tax_use">none</field>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+
+        <record id="tr_satis_tevkifat_3_10" model="account.tax">
+            <field name="sequence">12</field>
+            <field name="name">Tevkifat 3/10</field>
+            <field name="description">(3/10) Tevkif Edilmiş KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="-5.4000"/>
+            <field name="type_tax_use">none</field>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+
+        <record id="tr_satis_tevkifat_4_10" model="account.tax">
+            <field name="sequence">13</field>
+            <field name="name">Tevkifat 4/10</field>
+            <field name="description">(4/10) Tevkif Edilmiş KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="-7.2000"/>
+            <field name="type_tax_use">none</field>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+
+        <record id="tr_satis_tevkifat_5_10" model="account.tax">
+            <field name="sequence">14</field>
+            <field name="name">Tevkifat 5/10</field>
+            <field name="description">(5/10) Tevkif Edilmiş KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="-9.0000"/>
+            <field name="type_tax_use">none</field>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+
+        <record id="tr_satis_tevkifat_6_10" model="account.tax">
+            <field name="sequence">15</field>
+            <field name="name">Tevkifat 6/10</field>
+            <field name="description">(6/10) Tevkif Edilmiş KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="-10.8000"/>
+            <field name="type_tax_use">none</field>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+
+        <record id="tr_satis_tevkifat_7_10" model="account.tax">
+            <field name="sequence">16</field>
+            <field name="name">Tevkifat 7/10</field>
+            <field name="description">(7/10) Tevkif Edilmiş KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="-12.6000"/>
+            <field name="type_tax_use">none</field>
+            <field name="tax_group_id" ref="tax_group_tevkifat_satis_kdv"/>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+
+        <record id="tr_satis_tevkifat_8_10" model="account.tax">
+            <field name="sequence">17</field>
+            <field name="name">Tevkifat 8/10</field>
+            <field name="description">(8/10) Tevkif Edilmiş KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="-14.4000"/>
+            <field name="type_tax_use">none</field>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+
+        <record id="tr_satis_tevkifat_9_10" model="account.tax">
+            <field name="sequence">18</field>
+            <field name="name">Tevkifat 9/10</field>
+            <field name="description">(9/10) Tevkif Edilmiş KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="-16.2000"/>
+            <field name="type_tax_use">none</field>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+
+        <record id="tr_satis_tevkifat_10_10" model="account.tax">
+            <field name="sequence">19</field>
+            <field name="name">Tevkifat 10/10</field>
+            <field name="description">(10/10) Tevkif Edilmiş KDV</field>
+            <field name="active" eval="True"/>
+            <field name="price_include" eval="False"/>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="-18.0000"/>
+            <field name="type_tax_use">none</field>
+            <field name="invoice_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr391'),
+				}),
+			]"/>
+            <field name="refund_repartition_line_ids" eval="[(5,0,0),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'base',
+				}),
+				(0,0, {
+					'factor_percent': 100,
+					'repartition_type': 'tax',
+					'account_id': ref('l10n_tr.tr191'),
+				}),
+			]"/>
+        </record>
+
+        <!-- Vergi Grup -->
+        <record id="tr_satis_tevkifat_grub_1_10" model="account.tax">
+            <field name="name">(1/10)Tevkifatlı</field>
+            <field name="description">(1/10)Tevkifatlı</field>
+            <field name="sequence">20</field>
+            <field name="amount">1.00</field>
+            <field name="active" eval="False"/>
+            <field name="amount_type">group</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_tevkifat_satis"/>
+            <field name="children_tax_ids"
+                   eval="[(6, 0, [ref('tr_satis_kdv_18'), ref('tr_satis_tevkifat_1_10')])]"/>
+        </record>
+        <record id="tr_satis_tevkifat_grub_2_10" model="account.tax">
+            <field name="name">(2/10)Tevkifatlı</field>
+            <field name="description">(2/10)Tevkifatlı</field>
+            <field name="sequence">21</field>
+            <field name="amount">1.00</field>
+            <field name="active" eval="False"/>
+            <field name="amount_type">group</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_tevkifat_satis"/>
+            <field name="children_tax_ids"
+                   eval="[(6, 0, [ref('tr_satis_kdv_18'), ref('tr_satis_tevkifat_2_10')])]"/>
+        </record>
+        <record id="tr_satis_tevkifat_grub_3_10" model="account.tax">
+            <field name="name">(3/10)Tevkifatlı</field>
+            <field name="description">(3/10)Tevkifatlı</field>
+            <field name="sequence">22</field>
+            <field name="amount">1.00</field>
+            <field name="active" eval="True"/>
+            <field name="amount_type">group</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_tevkifat_satis"/>
+            <field name="children_tax_ids"
+                   eval="[(6, 0, [ref('tr_satis_kdv_18'), ref('tr_satis_tevkifat_3_10')])]"/>
+        </record>
+        <record id="tr_satis_tevkifat_grub_4_10" model="account.tax">
+            <field name="name">(4/10)Tevkifatlı</field>
+            <field name="description">(4/10)Tevkifatlı</field>
+            <field name="sequence">23</field>
+            <field name="amount">1.00</field>
+            <field name="active" eval="True"/>
+            <field name="amount_type">group</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_tevkifat_satis"/>
+            <field name="children_tax_ids"
+                   eval="[(6, 0, [ref('tr_satis_kdv_18'), ref('tr_satis_tevkifat_4_10')])]"/>
+        </record>
+        <record id="tr_satis_tevkifat_grub_5_10" model="account.tax">
+            <field name="name">(5/10)Tevkifatlı</field>
+            <field name="description">(5/10)Tevkifatlı</field>
+            <field name="sequence">24</field>
+            <field name="amount">1.00</field>
+            <field name="active" eval="True"/>
+            <field name="amount_type">group</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_tevkifat_satis"/>
+            <field name="children_tax_ids"
+                   eval="[(6, 0, [ref('tr_satis_kdv_18'), ref('tr_satis_tevkifat_5_10')])]"/>
+        </record>
+        <record id="tr_satis_tevkifat_grub_6_10" model="account.tax">
+            <field name="name">(6/10)Tevkifatlı</field>
+            <field name="description">(6/10)Tevkifatlı</field>
+            <field name="sequence">25</field>
+            <field name="amount">1.00</field>
+            <field name="active" eval="True"/>
+            <field name="amount_type">group</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_tevkifat_satis"/>
+            <field name="children_tax_ids"
+                   eval="[(6, 0, [ref('tr_satis_kdv_18'), ref('tr_satis_tevkifat_6_10')])]"/>
+        </record>
+        <record id="tr_satis_tevkifat_grub_7_10" model="account.tax">
+            <field name="name">(7/10)Tevkifatlı</field>
+            <field name="description">(7/10)Tevkifatlı</field>
+            <field name="sequence">26</field>
+            <field name="amount">1.00</field>
+            <field name="active" eval="True"/>
+            <field name="amount_type">group</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_tevkifat_satis"/>
+            <field name="children_tax_ids"
+                   eval="[(6, 0, [ref('tr_satis_kdv_18'), ref('tr_satis_tevkifat_7_10')])]"/>
+        </record>
+        <record id="tr_satis_tevkifat_grub_8_10" model="account.tax">
+            <field name="name">(8/10)Tevkifatlı</field>
+            <field name="description">(8/10)Tevkifatlı</field>
+            <field name="sequence">27</field>
+            <field name="amount">1.00</field>
+            <field name="active" eval="True"/>
+            <field name="amount_type">group</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_tevkifat_satis"/>
+            <field name="children_tax_ids"
+                   eval="[(6, 0, [ref('tr_satis_kdv_18'), ref('tr_satis_tevkifat_8_10')])]"/>
+        </record>
+        <record id="tr_satis_tevkifat_grub_9_10" model="account.tax">
+            <field name="name">(9/10)Tevkifatlı</field>
+            <field name="description">(9/10)Tevkifatlı</field>
+            <field name="sequence">28</field>
+            <field name="amount">1.00</field>
+            <field name="active" eval="False"/>
+            <field name="amount_type">group</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_tevkifat_satis"/>
+            <field name="children_tax_ids"
+                   eval="[(6, 0, [ref('tr_satis_kdv_18'), ref('tr_satis_tevkifat_9_10')])]"/>
+        </record>
+        <record id="tr_satis_tevkifat_grub_10_10" model="account.tax">
+            <field name="name">(10/10)Tevkifatlı</field>
+            <field name="description">(10/10)Tevkifatlı</field>
+            <field name="sequence">29</field>
+            <field name="amount">1.00</field>
+            <field name="active" eval="False"/>
+            <field name="amount_type">group</field>
+            <field name="type_tax_use">sale</field>
+            <field name="tax_group_id" ref="tax_group_tevkifat_satis"/>
+            <field name="children_tax_ids"
+                   eval="[(6, 0, [ref('tr_satis_kdv_18'), ref('tr_satis_tevkifat_10_10')])]"/>
+        </record>
+
+
+        <function model="account.chart.template" name="try_loading">
+            <value eval="[ref('l10n_tr.l10ntr_tek_duzen_hesap')]"/>
+        </function>
+
+    </data>
+
+</odoo>
